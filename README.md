@@ -1,5 +1,7 @@
 # POOLSANA InverPOWER ULTRA 18 – RS485 / Modbus RTU
 
+**Deutsch** | [English](README_EN.md)
+
 Praktisch ermittelte und getestete Modbus-Register für die Pool-Wärmepumpe **POOLSANA InverPOWER ULTRA 18** mit Steuerplatine **SP.KYZ1.5-4.1**.
 
 Ziel des Projekts war zunächst, die Wärmepumpe zuverlässig über eine Hausautomation **ein- und auszuschalten**, ohne die Netzversorgung hart zu trennen. Bei der Untersuchung der Steuerung zeigte sich, dass die Platine eine RS485-Schnittstelle besitzt. Nach Tests mit USB-RS485 und QModMaster ließ sich eine funktionierende **Modbus-RTU-Kommunikation** herstellen. Dadurch konnten zusätzlich Betriebsart, Solltemperaturen, Leistungsstufe, Isttemperatur und der Durchfluss-/E17-Status ermittelt werden.
@@ -35,6 +37,7 @@ Weitere Register sind vorhanden, wurden aber bewusst nicht vollständig untersuc
 Die vollständige Projektdokumentation enthält Testablauf, Registerübersicht, Platinenbilder, E17/E22, verworfene Hypothesen und die praktische Modbus-/KNX-Umsetzung.
 
 - [Bestätigte Register als Kurzreferenz](REGISTERS.md)
+- [English register reference](REGISTERS_EN.md)
 - [Lizenzhinweise](LICENSE.md)
 
 - [PDF-Dokumentation](Pool-Waermepumpe-Modbus-Projektdokumentation.pdf)
