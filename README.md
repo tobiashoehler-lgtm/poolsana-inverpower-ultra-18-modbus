@@ -34,10 +34,13 @@ Weitere Register sind vorhanden, wurden aber bewusst nicht vollständig untersuc
 
 Die vollständige Projektdokumentation enthält Testablauf, Registerübersicht, Platinenbilder, E17/E22, verworfene Hypothesen und die praktische Modbus-/KNX-Umsetzung.
 
+- [Bestätigte Register als Kurzreferenz](REGISTERS.md)
+- [Lizenzhinweise](LICENSE.md)
+
 - [PDF-Dokumentation](Pool-Waermepumpe-Modbus-Projektdokumentation.pdf)
 - [Bearbeitbare DOCX-Version](Pool-Waermepumpe-Modbus-Projektdokumentation.docx)
-- [Vollständige Steuerplatine](images/LP-komplett_redacted.jpg)
-- [RS485-Ausschnitt](images/LP_rs485_crop.jpg)
+- [Vollständige Steuerplatine](Steuerplatine_gesamt.jpg)
+- [RS485-Ausschnitt](RS485_Anschluesse.jpg)
 
 ## Suchbegriffe / Hardware
 
