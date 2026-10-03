@@ -1,5 +1,7 @@
 # Bestätigte Modbus-Register
 
+**Deutsch** | [English](REGISTERS_EN.md)
+
 Getestet an einer **POOLSANA InverPOWER ULTRA 18** mit Steuerplatine **SP.KYZ1.5-4.1**.
 
 Kommunikation: Modbus RTU, 9600 Baud, 8N1, Slave-ID 1, Basisadresse 0. Lesen über FC03, Schreiben der bestätigten schreibbaren Register über FC06.
@@ -32,3 +34,5 @@ Bei USB-RS485-Adapter bzw. Gateway wurden A/B/GND entsprechend verwendet. Die 12
 ## Sicherheit
 
 Unbekannte Register nicht beschreiben. Änderungen an der Verdrahtung nur im spannungsfreien Zustand durchführen. In der Wärmepumpe befinden sich Netz- und Inverterspannungen.
+
+[English project overview](README_EN.md)
