@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>POOLSANA InverPOWER ULTRA 18 – RS485 / Modbus RTU Register</title>
+  <meta name="description" content="Unabhängig und praktisch getestete RS485-/Modbus-RTU-Dokumentation für die POOLSANA InverPOWER ULTRA 18 mit Steuerplatine SP.KYZ1.5-4.1 und Anschluss CN837. Enthält bestätigte Register, E17-Flowstatus, Setpoints und Praxistests.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://tobiashoehler-lgtm.github.io/poolsana-inverpower-ultra-18-modbus/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="POOLSANA InverPOWER ULTRA 18 – RS485 / Modbus RTU">
+  <meta property="og:description" content="Praktisch getestete Modbus-Register und RS485-Dokumentation für SP.KYZ1.5-4.1 / CN837.">
+  <meta property="og:url" content="https://tobiashoehler-lgtm.github.io/poolsana-inverpower-ultra-18-modbus/">
+  <style>
+    body { max-width: 920px; margin: 0 auto; padding: 2rem 1.2rem 4rem; font-family: system-ui, sans-serif; line-height: 1.55; color: #1f2328; }
+    h1, h2 { line-height: 1.2; }
+    code { background: #f2f4f7; padding: .1rem .3rem; border-radius: .25rem; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    th, td { border: 1px solid #d0d7de; padding: .55rem; text-align: left; }
+    th { background: #f6f8fa; }
+    .note { background: #f6f8fa; padding: 1rem; border-left: 4px solid #57606a; }
+    a { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>POOLSANA InverPOWER ULTRA 18 – RS485 / Modbus RTU</h1>
+    <p>Unabhängige, praktisch getestete Dokumentation zur RS485-/Modbus-RTU-Kommunikation der <strong>POOLSANA InverPOWER ULTRA 18</strong> mit Steuerplatine <strong>SP.KYZ1.5-4.1</strong>. Für die externe Integration wurde <strong>RS485-1 / CN837</strong> verwendet.</p>
+
+    <p><strong>Getestete Kommunikation:</strong> Modbus RTU, 9600 Baud, 8N1, Slave-ID 1, Basisadresse 0, Lesen per FC03 und Schreiben bestätigter Register per FC06.</p>
+
+    <h2>Bestätigte Register</h2>
+    <table>
+      <thead><tr><th>Register</th><th>Adresse</th><th>Funktion</th><th>Bestätigte Werte</th></tr></thead>
+      <tbody>
+        <tr><td>R20</td><td>0x0014</td><td>Statuswort, Bit 1: Flow / E17</td><td>0 = Flow vorhanden, 1 = kein Flow / E17</td></tr>
+        <tr><td>R47</td><td>0x002F</td><td>Temperaturwert</td><td>raw × 0,1 °C</td></tr>
+        <tr><td>R92</td><td>0x005C</td><td>EIN / AUS</td><td>0 = AUS, 1 = EIN</td></tr>
+        <tr><td>R93</td><td>0x005D</td><td>Betriebsart</td><td>0 = Auto, 1 = Kühlen, 2 = Heizen</td></tr>
+        <tr><td>R105</td><td>0x0069</td><td>Solltemperatur Heizen</td><td>direkte °C</td></tr>
+        <tr><td>R106</td><td>0x006A</td><td>Solltemperatur Kühlen</td><td>direkte °C</td></tr>
+        <tr><td>R108</td><td>0x006C</td><td>Solltemperatur Auto</td><td>direkte °C</td></tr>
+        <tr><td>R132</td><td>0x0084</td><td>Leistungsstufe</td><td>0 = Stufe 1, 1 = Stufe 2, 2 = Stufe 3</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Dokumentation und Registerlisten</h2>
+    <p>
+      <a href="POOLSANA-InverPOWER-ULTRA-18-RS485-Modbus-Projektdokumentation.pdf">Vollständige Projektdokumentation als PDF</a><br>
+      <a href="REGISTERS.md">Bestätigte Register – Deutsch</a><br>
+      <a href="REGISTERS_EN.md">Confirmed Modbus registers – English</a><br>
+      <a href="README.md">Projektübersicht – Deutsch</a><br>
+      <a href="README_EN.md">Project overview – English</a><br>
+      <a href="RS485_Anschluesse.jpg">Foto RS485-Anschlüsse CN837/CN835</a><br>
+      <a href="Steuerplatine_gesamt.jpg">Foto der Steuerplatine SP.KYZ1.5-4.1</a>
+    </p>
+
+    <h2>Relevante Suchbegriffe</h2>
+    <p>POOLSANA InverPOWER ULTRA 18 Modbus, POOLSANA RS485, SP.KYZ1.5-4.1 Modbus, SP.KYZ1.5-4.1 RS485, CN837 Modbus, CN837 RS485, Pool Wärmepumpe Modbus Register, pool heat pump Modbus registers, E17 water flow error, E22 temperature difference protection.</p>
+
+    <p class="note"><strong>Hinweis:</strong> Diese Dokumentation entstand aus unabhängigen Kommunikations- und Praxistests. Sie ist keine Herstellerdokumentation, wurde von POOLSANA nicht offiziell bestätigt und kann bei anderen Firmware- oder Hardwareständen abweichen. Unbekannte Register nicht beschreiben. Arbeiten an der Verdrahtung nur im spannungsfreien Zustand durchführen.</p>
+  </main>
+</body>
+</html>

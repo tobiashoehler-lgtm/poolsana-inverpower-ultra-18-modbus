@@ -40,7 +40,7 @@ Die vollständige Projektdokumentation enthält Testablauf, Registerübersicht, 
 - [English register reference](REGISTERS_EN.md)
 - [Lizenzhinweise](LICENSE.md)
 
-- [PDF-Dokumentation](Pool-Waermepumpe-Modbus-Projektdokumentation.pdf)
+- [PDF-Dokumentation](POOLSANA-InverPOWER-ULTRA-18-RS485-Modbus-Projektdokumentation.pdf)
 - [Bearbeitbare DOCX-Version](Pool-Waermepumpe-Modbus-Projektdokumentation.docx)
 - [Vollständige Steuerplatine](Steuerplatine_gesamt.jpg)
 - [RS485-Ausschnitt](RS485_Anschluesse.jpg)

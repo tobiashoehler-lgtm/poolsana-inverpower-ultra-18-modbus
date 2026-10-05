@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tobiashoehler-lgtm.github.io/poolsana-inverpower-ultra-18-modbus/sitemap.xml

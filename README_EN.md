@@ -53,7 +53,7 @@ The connectors are marked **GND / B / A / 12V**. For a normal USB-to-RS485 adapt
 
 The complete project documentation is currently available in German. It contains the test procedure, register findings, PCB photographs, E17/E22 observations, rejected hypotheses, safety notes, and the practical Modbus/KNX implementation example.
 
-- [Full project documentation – PDF, German](Pool-Waermepumpe-Modbus-Projektdokumentation.pdf)
+- [Full project documentation – PDF, German](POOLSANA-InverPOWER-ULTRA-18-RS485-Modbus-Projektdokumentation.pdf)
 - [Editable project documentation – DOCX, German](Pool-Waermepumpe-Modbus-Projektdokumentation.docx)
 - [Full controller board photograph](Steuerplatine_gesamt.jpg)
 - [RS485 connector photograph](RS485_Anschluesse.jpg)
