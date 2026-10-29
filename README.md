@@ -8,6 +8,12 @@ Auch bei einfachen Suchen nach **„Poolsana Wärmepumpe Ultra 18“**, **„Poo
 
 **Schnelleinstieg:** [Übersichtliche Projektwebseite](https://tobiashoehler-lgtm.github.io/poolsana-inverpower-ultra-18-modbus/) · [Komplette PDF-Dokumentation](POOLSANA-InverPOWER-ULTRA-18-RS485-Modbus-Projektdokumentation.pdf) · [Modbus-Registerliste](REGISTERS.md)
 
+## English: POOLSANA InverPOWER ULTRA 18 – Integrate Your Pool Heat Pump into Your Smart Home
+
+Looking to connect your **POOLSANA InverPOWER ULTRA 18 pool heat pump** to a **smart home, Loxone, KNX or another home automation system**? This independent project documents practical tests using **RS485 / Modbus RTU**, including communication settings, tested registers and a downloadable project report. Check that your own controller board and firmware are compatible before attempting integration.
+
+**English resources:** [Project overview](README_EN.md) · [Tested Modbus registers](REGISTERS_EN.md) · [Project website](https://tobiashoehler-lgtm.github.io/poolsana-inverpower-ultra-18-modbus/)
+
 # POOLSANA InverPOWER ULTRA 18 – RS485 / Modbus RTU
 
 **Deutsch** | [English](README_EN.md)
