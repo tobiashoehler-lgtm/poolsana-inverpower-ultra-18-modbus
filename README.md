@@ -1,3 +1,13 @@
+# POOLSANA InverPOWER ULTRA 18 – Wärmepumpe ins Smart Home einbinden (Modbus / RS485)
+
+## POOLSANA Wärmepumpe Ultra 18 smart steuern
+
+Du besitzt eine **POOLSANA InverPOWER ULTRA 18** Pool-Wärmepumpe und möchtest sie über **Smart Home, Loxone oder KNX** steuern, statt sie nur am Bedienfeld zu bedienen? Diese frei zugängliche, unabhängige Projektdokumentation beschreibt die Anbindung der Wärmepumpe über **RS485 und Modbus RTU**. Sie enthält praktische Testergebnisse, Registeradressen und eine Anleitung zum Nachvollziehen der Kommunikation.
+
+Auch bei einfachen Suchen nach **„Poolsana Wärmepumpe Ultra 18“**, **„Poolsana Ultra 18 Steuerung“** oder **„Pool Wärmepumpe Smart Home“** sollst du hier einen Einstieg finden. Technische Kenntnisse und sorgfältige Prüfung der eigenen Hardware sind für die Umsetzung erforderlich.
+
+**Schnelleinstieg:** [Übersichtliche Projektwebseite](https://tobiashoehler-lgtm.github.io/poolsana-inverpower-ultra-18-modbus/) · [Komplette PDF-Dokumentation](POOLSANA-InverPOWER-ULTRA-18-RS485-Modbus-Projektdokumentation.pdf) · [Modbus-Registerliste](REGISTERS.md)
+
 # POOLSANA InverPOWER ULTRA 18 – RS485 / Modbus RTU
 
 **Deutsch** | [English](README_EN.md)
